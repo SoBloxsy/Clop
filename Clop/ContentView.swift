@@ -159,14 +159,14 @@ struct MenuView: View {
                 NSWorkspace.shared.open("https://lowtechguys.com/clop/privacy".url!)
             }
             Text("License: \(proactive ? "Pro" : "Free")")
-            #if DEBUG
+            //#if DEBUG
                 Button("Reset Trial") {
                     product?.resetTrial()
                 }
                 Button("Expire Trial") {
                     product?.expireTrial()
                 }
-            #endif
+            //#endif
             Text("Version: v\(Bundle.main.version)")
         }
 

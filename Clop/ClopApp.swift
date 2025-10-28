@@ -292,9 +292,9 @@ class AppDelegate: AppDelegateParent {
         super.applicationDidFinishLaunching(_: notification)
         UM.updater = updateController.updater
         PM.pro = pro
-        if !SWIFTUI_PREVIEW {
-            pro.checkProLicense()
-        }
+        //if !SWIFTUI_PREVIEW {
+          //  pro.checkProLicense()
+        //}
 
         Defaults[.videoDirs] = Defaults[.videoDirs].filter { fm.fileExists(atPath: $0) }
 
@@ -1420,7 +1420,7 @@ struct ClopApp: App {
         // Force Pro features to always be enabled
         if let pro = PRO {
             pro.productActivated = true
-            pro.onTrial = false
+            pro.onTrial = true
         }
     }
 
