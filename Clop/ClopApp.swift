@@ -280,13 +280,13 @@ class AppDelegate: AppDelegateParent {
             KM.primaryKeys = Defaults[.enabledKeys] + Defaults[.quickResizeKeys]
             KM.onPrimaryHotkey = { key in
                 self.handleHotkey(key)
-                let _ = checkInternalRequirements(PRODUCTS, nil)
+               
             }
 
             KM.secondaryKeyModifiers = [.lcmd]
             KM.onSecondaryHotkey = { key in
                 self.handleCommandHotkey(key)
-                let _ = checkInternalRequirements(PRODUCTS, nil)
+               
             }
         }
         super.applicationDidFinishLaunching(_: notification)
@@ -386,7 +386,7 @@ class AppDelegate: AppDelegateParent {
             .store(in: &observers)
         initMachPortListener()
 
-        let _ = checkInternalRequirements(PRODUCTS, nil)
+        
         setupServiceProvider()
         startShortcutWatcher()
         DROPSHARE.fetchAppURL()
@@ -845,7 +845,7 @@ class AppDelegate: AppDelegateParent {
             initClipboardOptimiser()
         }
 
-        let _ = checkInternalRequirements(PRODUCTS, nil)
+        
     }
 
     @MainActor func initClipboardOptimiser() {
@@ -1416,6 +1416,12 @@ let WINDOW_MIN_SIZE = CGSize(width: 870, height: 750)
 struct ClopApp: App {
     init() {
         migrateSettings()
+
+        // Force Pro features to always be enabled
+        if let pro = PRO {
+            pro.productActivated = true
+            pro.onTrial = false
+        }
     }
 
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
@@ -1479,8 +1485,12 @@ struct ClopApp: App {
     }
 }
 
-@inline(__always) var proactive: Bool {
-    (PRO?.productActivated ?? false) || (PRO?.onTrial ?? false)
+
+var proactive: Bool {
+    true
+
+
+
 }
 
 import ObjectiveC.runtime
@@ -1598,3 +1608,4 @@ func resetDefaultPlayer() {
         setDefaultAppForUTI("com.apple.quicktime-movie", "com.apple.QuickTimePlayerX")
     }
 }
+

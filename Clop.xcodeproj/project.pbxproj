@@ -19,7 +19,6 @@
 		C70B5F342AC1B56C00345739 /* Optimisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B5F332AC1B56C00345739 /* Optimisable.swift */; };
 		C71AAAD92D2D500300CA86D9 /* PresetZones.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AAAD72D2D500300CA86D9 /* PresetZones.swift */; };
 		C71AAAE62D2D8AB200CA86D9 /* BatchCropButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7976AC72B07B87D00C4246A /* BatchCropButton.swift */; };
-		C71AAAE72D2D8AB200CA86D9 /* required.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF1A212AB6F6A200AF8EDC /* required.swift */; };
 		C71AAAE82D2D8AB200CA86D9 /* Optimisable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B5F332AC1B56C00345739 /* Optimisable.swift */; };
 		C71AAAE92D2D8AB200CA86D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AB6626288301590041BEC8 /* ContentView.swift */; };
 		C71AAAEA2D2D8AB200CA86D9 /* PresetZones.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71AAAD72D2D500300CA86D9 /* PresetZones.swift */; };
@@ -122,7 +121,6 @@
 		C7CC9E242E57299900EAFCA1 /* InternetAccessPolicy.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7CC9E232E57299900EAFCA1 /* InternetAccessPolicy.plist */; };
 		C7CC9E252E57299900EAFCA1 /* InternetAccessPolicy.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7CC9E232E57299900EAFCA1 /* InternetAccessPolicy.plist */; };
 		C7D9200C288FE1D200FA0C83 /* FloatingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9200B288FE1D200FA0C83 /* FloatingResult.swift */; };
-		C7DF1A222AB6F6A200AF8EDC /* required.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF1A212AB6F6A200AF8EDC /* required.swift */; };
 		C7DF1A282AB8885600AF8EDC /* Ignore in Frameworks */ = {isa = PBXBuildFile; productRef = C7DF1A272AB8885600AF8EDC /* Ignore */; };
 		C7DF1A2A2ABB0E9A00AF8EDC /* Automation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF1A292ABB0E9A00AF8EDC /* Automation.swift */; };
 		C7EFD28C2B22577100A6D843 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EFD28B2B22577100A6D843 /* Onboarding.swift */; };
@@ -239,7 +237,7 @@
 		C736FAA32CFFA5710024EF71 /* Crop PDF for reading on iPad Air.shortcut */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Crop PDF for reading on iPad Air.shortcut"; sourceTree = "<group>"; };
 		C736FAA42CFFA5710024EF71 /* Crop to 16 by 9.shortcut */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Crop to 16 by 9.shortcut"; sourceTree = "<group>"; };
 		C73802002BD1B804001BEE6C /* bin.tar.lrz.sha256 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bin.tar.lrz.sha256; sourceTree = "<group>"; };
-		C73802012BD1B804001BEE6C /* bin.tar.lrz */ = {isa = PBXFileReference; lastKnownFileType = file; path = bin.tar.lrz; sourceTree = "<group>"; };
+		C73802012BD1B804001BEE6C /* bin.tar.lrz */ = {isa = PBXFileReference; lastKnownFileType = text; path = bin.tar.lrz; sourceTree = "<group>"; };
 		C73802042BD1B81A001BEE6C /* lrzip */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lrzip; sourceTree = SOURCE_ROOT; };
 		C73802062BDCD76D001BEE6C /* CompareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompareView.swift; sourceTree = "<group>"; };
 		C7760AB52A5C4EE500851F8C /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
@@ -279,7 +277,6 @@
 		C7C8AD612ABC9B34003ECDE6 /* Upload to SSH server.shortcut */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Upload to SSH server.shortcut"; sourceTree = "<group>"; };
 		C7CC9E232E57299900EAFCA1 /* InternetAccessPolicy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InternetAccessPolicy.plist; sourceTree = "<group>"; };
 		C7D9200B288FE1D200FA0C83 /* FloatingResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingResult.swift; sourceTree = "<group>"; };
-		C7DF1A212AB6F6A200AF8EDC /* required.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = required.swift; sourceTree = "<group>"; };
 		C7DF1A292ABB0E9A00AF8EDC /* Automation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Automation.swift; sourceTree = "<group>"; };
 		C7EFD28B2B22577100A6D843 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -406,7 +403,6 @@
 				C70B5F332AC1B56C00345739 /* Optimisable.swift */,
 				C7760AC02A5E957700851F8C /* OptimisationUtils.swift */,
 				C7333E462A98C90500B1D5BE /* PDF.swift */,
-				C7DF1A212AB6F6A200AF8EDC /* required.swift */,
 				C78B2A012AD1F02E00B6A19B /* ResolutionField.swift */,
 				C7AB38CA2AC5B10300F299CE /* RightClickMenu.swift */,
 				C7760AC22A5FF89B00851F8C /* Settings.swift */,
@@ -715,7 +711,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C71AAAE62D2D8AB200CA86D9 /* BatchCropButton.swift in Sources */,
-				C71AAAE72D2D8AB200CA86D9 /* required.swift in Sources */,
 				C71AAAE82D2D8AB200CA86D9 /* Optimisable.swift in Sources */,
 				C71AAAE92D2D8AB200CA86D9 /* ContentView.swift in Sources */,
 				C71AAAEA2D2D8AB200CA86D9 /* PresetZones.swift in Sources */,
@@ -764,7 +759,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7976AC82B07B87D00C4246A /* BatchCropButton.swift in Sources */,
-				C7DF1A222AB6F6A200AF8EDC /* required.swift in Sources */,
 				C70B5F342AC1B56C00345739 /* Optimisable.swift in Sources */,
 				C7AB6627288301590041BEC8 /* ContentView.swift in Sources */,
 				C71AAAD92D2D500300CA86D9 /* PresetZones.swift in Sources */,
@@ -831,7 +825,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2.10.6;
-				DEVELOPMENT_TEAM = RDDXV84A73;
+				DEVELOPMENT_TEAM = BT348ULXYL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -847,7 +841,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 2.10.6;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lowtechguys.Clop.FinderOptimiser;
+				PRODUCT_BUNDLE_IDENTIFIER = blue.iren.Clop.FinderOptimiser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -904,7 +898,7 @@
 				CURRENT_PROJECT_VERSION = 2.10.6;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Clop/Preview Content\"";
-				DEVELOPMENT_TEAM = RDDXV84A73;
+				DEVELOPMENT_TEAM = BT348ULXYL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -924,7 +918,7 @@
 				LLVM_LTO = YES_THIN;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 2.10.6;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lowtechguys.Clop;
+				PRODUCT_BUNDLE_IDENTIFIER = blue.iren.Clop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG PREVIEW";
@@ -982,13 +976,13 @@
 				CODE_SIGN_ENTITLEMENTS = ClopCLI/ClopCLI.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RDDXV84A73;
+				DEVELOPMENT_TEAM = BT348ULXYL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lowtechguys.Clop.CLI;
+				PRODUCT_BUNDLE_IDENTIFIER = blue.iren.ClopCLI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1158,7 +1152,7 @@
 				CURRENT_PROJECT_VERSION = 2.10.6;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Clop/Preview Content\"";
-				DEVELOPMENT_TEAM = RDDXV84A73;
+				DEVELOPMENT_TEAM = BT348ULXYL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_PREVIEWS = YES;
@@ -1166,7 +1160,9 @@
 				INFOPLIST_FILE = Clop/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Clop;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = SentryCrashExceptionApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1179,7 +1175,7 @@
 				LLVM_LTO = YES_THIN;
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 2.10.6;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lowtechguys.Clop;
+				PRODUCT_BUNDLE_IDENTIFIER = blue.iren.Clop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
@@ -1202,14 +1198,16 @@
 				CURRENT_PROJECT_VERSION = 2.10.6;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Clop/Preview Content\"";
-				DEVELOPMENT_TEAM = RDDXV84A73;
+				DEVELOPMENT_TEAM = BT348ULXYL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Clop/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Clop;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = SentryCrashExceptionApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1223,7 +1221,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 2.10.6;
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lowtechguys.Clop;
+				PRODUCT_BUNDLE_IDENTIFIER = blue.iren.Clop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
