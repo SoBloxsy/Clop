@@ -552,11 +552,23 @@ struct CompactResultList: View {
                         optimiser.uiStop()
                     }
                 }
+                .help("Stop all running optimisations.")
             }
-            Button(hasRunningOptimisers ? "Stop and clear" : "Clear all") {
-                OM.clearVisibleOptimisers(stop: true)
+
+            if hasRunningOptimisers {
+                Button("Clear completed") {
+                    
+                    for optimiser in OM.optimisers.filter({ !$0.running }) {
+                        optimiser.remove(after: 0, withAnimation: true)
+                    }
+                }
+                .help("Dismiss all completed results without stopping any currently running optimisations.")
+            } else {
+                Button("Clear all") {
+                    OM.clearVisibleOptimisers(stop: false)
+                }
+                .help("Dismiss all results (esc)")
             }
-            .help("Stop all running optimisations and dismiss all results (\(keyComboModifiers.str) esc)")
 
             if !floatingResultsCorner.isTrailing {
                 Spacer()
@@ -964,3 +976,4 @@ struct CompactResult_Previews: PreviewProvider {
             .background(LinearGradient(colors: [Color.red, .orange, .blue], startPoint: .topLeading, endPoint: .bottomTrailing))
     }
 }
+
