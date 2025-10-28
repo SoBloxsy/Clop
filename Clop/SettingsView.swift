@@ -1008,7 +1008,7 @@ struct AboutSettingsView: View {
                     .foregroundColor(.hotRed)
                     .offset(x: 5, y: 14)
             }
-            Text("Clop")
+            Text("Clop Pro")
                 .font(.round(64, weight: .black))
                 .padding(.top, -30)
             Text((Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String) ?? "v2")
@@ -1026,7 +1026,8 @@ struct AboutSettingsView: View {
             Toggle("Send error reports to developer", isOn: $enableSentry)
                 .frame(width: 340)
             HStack {
-                Link("Source code", destination: "https://github.com/FuzzyIdeas/Clop".url!)
+                Link("Orignal Source code", destination: "https://github.com/FuzzyIdeas/Clop".url!)
+                Link("Forked Source code", destination: "https://github.com/SoBloxsy/Clop".url!)
             }
             .underline()
             .opacity(0.7)

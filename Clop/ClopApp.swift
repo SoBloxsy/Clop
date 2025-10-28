@@ -265,7 +265,7 @@ class AppDelegate: AppDelegateParent {
         paddleVendorID = "122873"
         paddleAPIKey = "e1e517a68c1ed1bea2ac968a593ac147"
         paddleProductID = "841006"
-        trialDays = 14
+        trialDays = 365
         trialText = "This is a trial for the Pro features. After the trial, the app will automatically revert to the free version."
         price = 15
         productName = "Clop Pro"
